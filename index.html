@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Base Apparel coming soon page</title>
+  
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- css -->
+  <link rel="stylesheet" href="css/tailwind.css">
+</head>
+<body>
+  
+  <!-- contents -->
+  <div class="min-h-full w-full flex flex-col xl:grid xl:grid-rows-6 xl:grid-cols-2 xl:gap-x-4">
+    
+    <!-- header -->
+    <header class="h-2/4 xl:grid xl:grid-cols-6 xl:row-span-1 xl:col-span-1 xl:col-start-1">
+      <div class="xl:col-start-2 xl:col-span-5 p-7">
+        <img class="h-5 xl:h-8 w-24 xl:w-28" src="images/logo.svg" alt="Logo" />
+      </div>
+    </header>
+    
+    <!-- hero section -->
+    <section class="xl:grid xl:grid-cols-6 xl:row-span-6 xl:col-span-1 xl:col-start-2">
+      <img class="hidden xl:col-span-5 xl:col-start-2 xl:block min-h-full w-full" src="images/hero-desktop.jpg" alt="Hero">
+      <img class="h-full w-full xl:hidden" src="images/hero-mobile.jpg" alt="Hero">
+    </section>
+    
+    <!-- main sections -->
+    <main class="h-2/4 xl:grid xl:grid-cols-6 xl:h-full xl:row-span-5 xl:row-start-2 xl:col-start-1 xl:col-span-1">
+      <section class="xl:col-start-2 xl:col-span-5 h-full">
+        <div class="h-full w-full p-6 flex flex-col justify-center xl:justify-start items-center xl:items-baseline font-josefin">
+          
+          <div class="mt-6 flex flex-col items-center xl:items-baseline -space-y-4 text-4xl xl:text-5xl uppercase tracking-ultrawide">
+            <span class="font-light text-desaturated-red">We're</span>
+            <span class="font-bold">Coming</span>
+            <span class="font-bold">soon</span>
+          </div>
+          
+          <div class="flex flex-col items-center">
+            <p class="pt-2 pb-8 text-center xl:text-left text-sm xl:text-base text-desaturated-red">
+              Hello fellow shoppers! We're currently building our new fashion store. 
+              Add your email below to stay up-to-date with announcements and our launch deals.
+            </p>
+          </div>
+          
+          <div class="w-full flex flex-col items-center">
+            <div class="h-12 w-full flex justify-center items-center rounded-full border border-desaturated-red">
+              <input placeholder="Email Address" class="h-full w-full px-5 rounded-full focus:outline-none" type="email" name="email" id="email">
+              <img id="errorIcon" class="opacity-0 h-6 w-8 relative transform transition duration-600 ease" src="images/icon-error.svg" alt="error-icon">
+              <button type="button" class="h-full w-20 flex justify-center items-center linear2 rounded-full focus:outline-none hover:shadow-xl transform transition duration-400 ease">
+                <img src="images/icon-arrow.svg" alt="arrow-right">
+              </button>
+            </div>
+            <div class="w-full h-10 px-5">
+              <span id="errorMessage" class="opacity-0 text-xs xl:text-base text-desaturated-red transform transition duration-400 ease">Please provide a valid email</span>
+            </div>
+          </div>
+          
+          <div>
+            <p class="mt-10 flex justify-center text-xs xl:text-base font-josefin">
+              Challenge by <a class="text-desaturated-red" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+              Coded by <a class="text-desaturated-red" href="https://github.com/arjawa">Arjawa</a>.
+            </p>
+          </div>
+          
+        </div>
+      </section>
+    </main>
+    <!-- end main sections -->
+  </div>
+  <!-- end contents -->
+  
+  <!-- javascript -->
+  <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>

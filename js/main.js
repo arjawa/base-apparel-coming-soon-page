@@ -16,4 +16,3 @@ var button = document.querySelector('button'),
       }
     })
     
-    eruda.init();

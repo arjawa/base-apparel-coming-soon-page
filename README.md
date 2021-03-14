@@ -17,7 +17,7 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 ## Screenshots
 
 #### Desktop
-![Desktop version](screenshots/base_apparel_desktop.png)
+![Desktop version](screenshots/base_apparel_desktop.jpg)
 #### Mobile
 ![Mobile version](screenshots/base_apparel_mobile.png)
 
